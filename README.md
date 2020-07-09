@@ -16,7 +16,7 @@ MNIST ("Modified National Institute of Standards and Technology") is dataset of 
 
 2. Data Normalization - We perform grayscale normalization (divide each pixel value by 255) to reduce effect of        Illumination. CNN converges faster on [0,1] data,than [0,255].
 
-3. Reshape Data - CNN takes in 3D matrix. Each pixel column in the training set has a name like pixelx, where x is      an integer between 0 and 783, inclusive. Reshape data to [28, 28, 1]. Since its grayscale, having 1 channel.
+3. Reshape Data - CNN takes in 3D matrix. Each pixel column in the training set has a name like pixel x, where x is      an integer between 0 and 783, inclusive. Reshape data to [28, 28, 1]. Since its grayscale, having 1 channel.
 
 4. Label Encoding - One hot encoding of Target variable. Ex- 1 - [0,1,0,0,0,0,0,0,0]
 
@@ -25,5 +25,5 @@ MNIST ("Modified National Institute of Standards and Technology") is dataset of 
 ### 3. CNN model
 
 Model - Basic CNN model having 2 sets of (Conv2d -> MaxPool -> Dropout). Then Flat layer - Dense (10 class).
-![alt text](http://url/to/img.png)
+![alt text](https://github.com/Ranger105/Digit-Recognizer/blob/master/my_CNN_model.png)
  
