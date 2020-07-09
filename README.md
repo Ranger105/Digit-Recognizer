@@ -25,5 +25,6 @@ MNIST ("Modified National Institute of Standards and Technology") is dataset of 
 ### 3. CNN model
 
 Model - Basic CNN model having 2 sets of (Conv2d -> MaxPool -> Dropout). Then Flat layer - Dense (10 class).
-![alt text](https://github.com/Ranger105/Digit-Recognizer/blob/master/my_CNN_model.png)
- 
+<p align="center">
+  <img src="https://github.com/Ranger105/Digit-Recognizer/blob/master/my_CNN_model.png">
+</p> 
