@@ -1,5 +1,5 @@
 # Digit Recognizer
-kaggle Computer Vision Beginner Competition 
+kaggle Computer Vision Beginner Competition - https://www.kaggle.com/c/digit-recognizer/overview
 
 ## Data
 MNIST ("Modified National Institute of Standards and Technology") is dataset of computer vision.The data has total 60,000 images, consisting of 10 classes (0-9 digit images).
